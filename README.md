@@ -11,7 +11,7 @@ Arguments
 Example:
 
 ```bash
-python main.py --docker-image python --bash-command $'pip install pip -U && pip install tqdm && python -c \"import time\ncounter = 0\nwhile True:\n\tprint(counter)\n\tcounter += 1\n\ttime.sleep(1)\"' --aws-cloudwatch-group test-task-group-1 --aws-cloudwatch-stream test-task-stream-1 --aws-access-key-id AKIASFCGVSA5Q32HEXEB --aws-secret-access-key 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 --aws-region us-east-2
+python main.py --docker-image python --bash-command $'pip install pip -U && pip install tqdm && python -c \"import time\ncounter = 0\nwhile True:\n\tprint(counter)\n\tcounter += 1\n\ttime.sleep(1)\"' --aws-cloudwatch-group test-task-group-1 --aws-cloudwatch-stream test-task-stream-1 --aws-access-key-id ... --aws-secret-access-key ... --aws-region ...
 ```
 
 Functionality
